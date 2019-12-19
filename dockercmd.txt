@@ -1,0 +1,53 @@
+docker container run -p 5555:80 --name pgadmin -e  PGADMIN_DEFAULT_EMAIL="anant" -e PGADMIN_DEFAULT_PASSWORD="123123123" dpage/pgadmin4
+docker container run -p 5460:5460 --name q-pg postgres 
+
+docker container run -p 5555:80 --name pgadmin -e  PGADMIN_DEFAULT_EMAIL="anant" -e PGADMIN_DEFAULT_PASSWORD="123123123" dpage/pgadmin4
+docker container run -p 5460:5460 --name q-pg postgres 
+
+docker-compose up --force-recreate --build
+
+Docker info
+docker container run -it -p 80:80 (on foreground) ps 
+Docker container rm 70a
+Docker images
+Docker image rm 5a2
+Docker pull nginx
+Docker container run -d (detached) -p (Port / —port) 8080:80 —name mynginx nginx ( image name) (on background)
+Docker container ps /  Docker container ls -a / docker ps
+
+docker run --name qqmysql -e -p 3306:3306 MYSQL_ROOT_PASSWORD_FILE=123123123  mysql:5.7
+
+Docker container exec -it qq-nginx bash
+
+Docker rm $(docker ps -aq) -f
+docker rmi $(docker images -a -q)
+docker-compose up -d
+
+Docker container run -d -p 8081:80 -v $(pwd):/usr/share/nginx/html —name nginx-app nginx 
+
+Docker image build -t anant00729/nginx-website .
+
+docker container run -d -p 8082:80 anant00729/nginx-website
+
+Docker-compose up
+
+docker exec -it 3485d9cf1b52 psql -U postgres
+docker container exec -i 3485d9cf1b52 psql -U postgres practicedocker < exampledata.sql
+
+
+quonqfup
+zE?8*kB8Bw5b9!!5
+
+
+ssh -p 22 quonqfup@208.91.198.23
+
+export NODEJS_HOME=/home/quonqfup/anantsWorkspace/nodejs/bin 
+export PATH=$NODEJS_HOME:$PATH
+
+
+docker inspect 2f50fabe8a87 | grep IPAddress
+
+volumes:
+      - /Users/anantawasthy/Documents/NodeJSWorkspace/CodeGig/public/uploads:/codinggig/public/uploads
+volumes:
+      - /root/docker-node-2/public/uploads:/codinggig/public/uploads

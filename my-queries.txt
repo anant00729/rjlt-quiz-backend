@@ -1,0 +1,85 @@
+INSERT INTO public."Users"(
+name, email, password)
+VALUES ('anan', 'a@g.ocm', '123123');
+
+SELECT * FROM "Users"
+
+
+INSERT INTO public."CQuestions"(
+ question, clap, "qColor", "isActive", "userId")
+VALUES ( 'ajsdkahsdkdhad', 12, 'asd', 1, 1);
+
+SELECT * FROM "CQuestions"
+
+SELECT * FROM "Users"
+
+SELECT
+   *
+FROM
+   "CQuestions" a
+INNER JOIN "Users" u ON  a."userId" = u."id";
+
+SELECT
+   *
+FROM
+   "UserSessions" a
+INNER JOIN "Users" u ON  a."userId" = u."id";
+
+
+SELECT * FROM public."CQuestions"
+SELECT * FROM public."UserSessions"
+SELECT * FROM public."Users"
+SELECT * FROM public."Articles"
+SELECT * FROM public."CAns"
+
+
+WYnn6LpkXarLql7IACYRFp0v9WwvZIkpRSWZoxj51Vb3St2wZT
+
+OhCgqZaMehIs4N1o1ivTHa2tXmgWWtPum4l0KLeKaWL93vHsMS
+
+TRUNCATE ONLY 
+   "CQuestions",
+   "UserSessions",
+   "Users",
+   "Articles",
+   "CAns"
+
+
+INSERT INTO public."Articles"(
+	"ArticleName", "ArticleAuthorName", "PublishedOn", "ReadTime", "ArticleTemplate", "isActive")
+	VALUES ('asd', 'sda','asd', 'sad', 'asd', 1);
+	
+SELECT * FROM "Articles"	   
+
+UPDATE public."Articles"
+	SET "ArticleTemplate"= 'asdsa'
+	WHERE "id" = 1;
+
+SELECT id, "createdAt", "updatedAt", name, email, password, "isActive", "UserType", picture
+	FROM public."Users";
+
+
+SELECT * FROM "Users" WHERE "UserType" = 'admin'
+
+SELECT MAX("id") FROM "Users"
+
+select ;
+
+	
+SELECT currval(pg_get_serial_sequence('public."Users"', 'id'));	
+SELECT nextval(pg_get_serial_sequence('public."Users"', 'id'));	
+TRUNCATE ONLY "UserSessions" CASCADE
+SELECT
+    "ArticleName",
+	"ArticleTemplate",
+	"MainImg",
+	"PublishedOn",
+	"ReadTime",
+	"ArticleAuthorName",
+	"picture"
+    FROM
+    "Articles" a
+    INNER JOIN "Users" u ON  a."AuthorId" = u."id";
+
+
+DELETE FROM public."QuizSessions" WHERE "qsessionKey" = 'E6CQO7blPQsPlEQkuQbc0HK2SVLSPRHOhbLNyiuk0YNTDjlk2Y';
