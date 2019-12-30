@@ -58,16 +58,11 @@ const PORT = process.env.PORT || 3001
 
 app.get('/test', (req,res)=> {
 
-
+    res.json(home_data)
     // request('https://www.tatacliq.com/', function (error, response, body) {
         
     //     console.log('body:', body); // Print the HTML for the Google homepage.
     //   });
-    
-
-    res.json(home_data)
-    
-
     // request({
     //     method: 'GET',
     //     url: 'https://www.tatacliq.com/'
