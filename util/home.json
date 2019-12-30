@@ -1,0 +1,346 @@
+{
+    "status" : true, 
+    "message" : "",
+    "homeList" : [
+        {
+            "type" : "SMALL_IMG_HOR_LIST",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "LARGE_LANDSCAPE_CAROSAL",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "LARGE_VIEW_PAGER",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "ADVERTISEMENT",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "MEDIUM_HOR_LIST",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "LARGE_HOR_LIST",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "ADVERTISEMENT",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "GRID_GAP_LIST_2",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "MEDIUM_HOR_LIST_WITH_EXPLORE",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "ADVERTISEMENT",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "GRID_GAP_LIST_3",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "GRID_GAP_LIST_WITH_NO_GAP_CORNER",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "MEDIUM_PORTRAIT_CAROSAL",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "LARGE_VIEW_PAGER",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "LARGE_VIEW_PAGER",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "GRID_GAP_LIST_2",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        },
+        {
+            "type" : "BRAND_IMAGE_WITH_HOR_LIST",
+            "subList" : [
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                },
+                {
+                    "image" : "http://lorempixel.com/640/360/"
+                }
+            ]
+        }
+    ]
+}

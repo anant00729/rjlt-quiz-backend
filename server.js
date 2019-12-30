@@ -3,10 +3,13 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const db = require('./config/database')
 const path = require('path')
+const request = require('request')
+const http = require('http') 
+
+const home_data = require('./util/home.json')
 
 
-console.log('remove hello all');
-//console.log('hello all');
+
 
 
 
@@ -53,32 +56,55 @@ const PORT = process.env.PORT || 3001
 
 
 
-app.use(express.static('public/build'));
-app.use(express.static('public'));
+app.get('/test', (req,res)=> {
 
 
-
-app.get('*', (req,res)=> {
-    ///app.use(express.static('public/build'))
-    //res.sendFile(path.join(__dirname+'/public/build/index.html'));
+    // request('https://www.tatacliq.com/', function (error, response, body) {
+        
+    //     console.log('body:', body); // Print the HTML for the Google homepage.
+    //   });
     
-    res.sendFile(path.resolve(__dirname, 'public', 'build', 'index.html'))
-    //res.sendFile(path.resolve(__dirname, 'public/build', 'index.html'))
+
+    res.json(home_data)
+    
+
+    // request({
+    //     method: 'GET',
+    //     url: 'https://www.tatacliq.com/'
+    // }, (err, res, body) => {
+    
+    //     if (err) return console.error(err);
+    
+    //     let $ = cheerio.load(body);
+    
+    //     let h1El = $('h1');
+    
+    //     let parentEl = h1El.parent();
+    
+    //     console.log(parentEl.get(0).tagName)
+    // });
 })
 
+// app.use(express.static('public/build'));
+// app.use(express.static('public'));
+
+
+
+// app.get('*', (req,res)=> {
+//     ///app.use(express.static('public/build'))
+//     //res.sendFile(path.join(__dirname+'/public/build/index.html'));
+    
+//     res.sendFile(path.resolve(__dirname, 'public', 'build', 'index.html'))
+//     //res.sendFile(path.resolve(__dirname, 'public/build', 'index.html'))
+// })
 
 
 
 
 
-//app.use(express.static('files'))
-//app.use('/adminImages', express.static('public/adminImages'))
-//app.use(express.static(path.join(__dirname,-- 'public/images')));
 
 
-// app.get('/admin', (req,res)=> {
-//     res.sendFile(path.resolve(__dirname, 'public', 'build1', 'index.html'))
-// })s
+
 
 
 
